@@ -254,7 +254,7 @@ void loop()                     // run over and over again
       if (readId !=1){
         EEPROM.put(0, 1);  
         EEPROM.commit();
-        Serial.println("EEPROM write 1");
+        Serial.println("EEPROM write 1 ");
       }
       EEPROM.end();
   }else{
